@@ -14,6 +14,6 @@ if (randomNumber < 150) {
     second subcriber ${secondName} are ${randomNumber} same with height `)
 } else {
     "upps something going wrong"
-}
+};
 
 
