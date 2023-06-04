@@ -17,8 +17,6 @@ Here's a starting point to help you get started:
 
 Your task is to complete the code by implementing the necessary logic for each function. Once you've completed the exercise, you can test it by running the `runBMIProgram` function. Feel free to modify the code as needed to suit your needs.
 
-Happy coding! Let me know if you need further assistance.
-
 
 ------------------------------------------
 
@@ -49,4 +47,21 @@ Here's a starting point for you:
 
 Your task is to complete the code by implementing the necessary logic for each function. Once you've completed the exercise, you can test it by running the `runTemperatureProgram` function. Feel free to modify the code as needed.
 
-Happy coding! Let me know if you need further assistance.
+
+
+
+
+# Exercise: Guess the Number
+Write a JavaScript program that generates a random number between 1 and 100. 
+The program should prompt the user to guess the number and provide feedback on whether the guess is too high, too low, or correct.
+
+In this exercise, we use the `Math.random()` function to generate a random number between 0 and 1, then multiply it by 100 and add 1 to get a random number between 1 and 100.
+
+The program prompts the user to enter their guess using `prompt()`. It validates the input to ensure it's a number using `isNaN()`. If the guess is incorrect, it provides feedback to the user, either "Too low! Try again." or "Too high! Try again." If the guess is correct, it displays a congratulatory message and breaks out of the loop.
+
+After the game ends, the program displays the number of attempts it took the user to guess correctly using `alert()`.
+
+Feel free to modify the code or add additional features as desired.
+
+
+
