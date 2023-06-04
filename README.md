@@ -1,4 +1,4 @@
-`Exercise: Calculate BMI`
+# Exercise: Calculate BMI
 Write a JavaScript function called `calculateBMI` that takes two parameters: `weight` (in kilograms) and `height` (in meters). The function should calculate the Body Mass Index (BMI) and return the BMI value.
 
 The BMI is calculated using the following formula:
@@ -22,8 +22,10 @@ Happy coding! Let me know if you need further assistance.
 
 ------------------------------------------
 
-`Exercise: Convert Temperature`
-Write a JavaScript function called `convertTemperature` that takes two parameters: `temperature` and `unit`. The function should convert the temperature from one unit to another and return the converted temperature.
+# Exercise: Convert Temperature
+
+Write a JavaScript function called `convertTemperature` that takes two parameters: `temperature` and `unit`.
+The function should convert the temperature from one unit to another and return the converted temperature.
 
 The function should support the following temperature units:
 - Celsius (C)
