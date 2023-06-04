@@ -3,6 +3,7 @@
 * [Exercise2: Convert Temperature](#exercise2:-convert-temperature)
 * [Exercise3: Guess the Number](#exercise3:-guess-the-number)
 * [Exercise4: Calculate Factorial](#exercise4:-calculate-factorial)
+* [Exercise5: Find Prime Numbers](#Exercise5:-find-prime-numbers)
 
 
 
@@ -79,3 +80,11 @@ For example, the factorial of 5 (written as 5!) is calculated as follows:
 ```
 
 Write a function that uses a loop to calculate the factorial of the given number and returns the result.
+
+
+## Exercise5: Find Prime Numbers
+Write a JavaScript function called findPrimeNumbers that takes a positive integer as a parameter and returns an array containing all the prime numbers up to that given number.
+
+A prime number is a number greater than 1 that is divisible only by 1 and itself. For example, 2, 3, 5, 7, 11, and 13 are prime numbers.
+
+Write a function that checks each number up to the given number and determines if it is prime. If a number is prime, it should be added to an array. Finally, the function should return the array of prime numbers.
