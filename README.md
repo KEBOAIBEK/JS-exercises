@@ -1,4 +1,9 @@
-# Exercise: Calculate BMI
+# Table of contens
+* [Exercise 1: Calculate BMI](# Exercise 1: Calculate BMI)
+
+
+
+# Exercise 1: Calculate BMI
 Write a JavaScript function called `calculateBMI` that takes two parameters: `weight` (in kilograms) and `height` (in meters). The function should calculate the Body Mass Index (BMI) and return the BMI value.
 
 The BMI is calculated using the following formula:
