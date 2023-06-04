@@ -1,8 +1,8 @@
 # Table of contens
-* [Exercise1: Calculate BMI](#Exercise1:-Calculate-BMI)
-* [Exercise2: Convert Temperature](#Exercise2:-Convert-Temperature)
-* [Exercise3: Guess the Number](#Exercise3:-Guess-the-Number)
-* [Exercise4: Calculate Factorial](#Exercise:-Calculate-Factorial)
+* [Exercise1: Calculate BMI](#exercise1:-calculate-bmi)
+* [Exercise2: Convert Temperature](#exercise2:-convert-temperature)
+* [Exercise3: Guess the Number](#exercise3:-guess-the-number)
+* [Exercise4: Calculate Factorial](#exercise4:-calculate-factorial)
 
 
 
