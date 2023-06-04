@@ -4,6 +4,8 @@
 * [Exercise3: Guess the Number](#exercise3:-guess-the-number)
 * [Exercise4: Calculate Factorial](#exercise4:-calculate-factorial)
 * [Exercise5: Find Prime Numbers](#Exercise5:-find-prime-numbers)
+* [Exercise6: Remove Duplicates](#Exercise6:-remove-duplicates)
+
 
 
 
@@ -88,3 +90,10 @@ Write a JavaScript function called findPrimeNumbers that takes a positive intege
 A prime number is a number greater than 1 that is divisible only by 1 and itself. For example, 2, 3, 5, 7, 11, and 13 are prime numbers.
 
 Write a function that checks each number up to the given number and determines if it is prime. If a number is prime, it should be added to an array. Finally, the function should return the array of prime numbers.
+
+## Exercise6: Remove Duplicates
+Write a JavaScript function called removeDuplicates that takes an array as a parameter and returns a new array with duplicate elements removed.
+
+For example, given the array [1, 2, 3, 2, 4, 3, 5], the function should return [1, 2, 3, 4, 5] after removing the duplicate elements.
+
+Write a function that iterates over the array and uses another array to store unique elements. If an element is already present in the unique elements array, it should be skipped. Finally, the function should return the new array with duplicates removed.
