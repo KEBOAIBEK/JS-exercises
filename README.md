@@ -1,9 +1,12 @@
 # Table of contens
-* [Exercise 1: Calculate BMI](#Exercise-1:-Calculate-BMI)
+* [Exercise1: Calculate BMI](#Exercise1:-Calculate-BMI)
+* [Exercise2: Convert Temperature](#Exercise2:-Convert-Temperature)
+* [#Exercise3: Guess the Number](#Exercise3:-Guess-the-Number)
+* [#Exercise4: Calculate Factorial](#Exercise:-Calculate-Factorial)
 
 
 
-# Exercise 1: Calculate BMI
+#Exercise1: Calculate BMI
 Write a JavaScript function called `calculateBMI` that takes two parameters: `weight` (in kilograms) and `height` (in meters). The function should calculate the Body Mass Index (BMI) and return the BMI value.
 
 The BMI is calculated using the following formula:
@@ -25,7 +28,7 @@ Your task is to complete the code by implementing the necessary logic for each f
 
 ------------------------------------------
 
-# Exercise: Convert Temperature
+# Exercise2: Convert Temperature
 
 Write a JavaScript function called `convertTemperature` that takes two parameters: `temperature` and `unit`.
 The function should convert the temperature from one unit to another and return the converted temperature.
@@ -53,7 +56,7 @@ Your task is to complete the code by implementing the necessary logic for each f
 
 
 
-# Exercise 3: Guess the Number
+#Exercise3: Guess the Number
 Write a JavaScript program that generates a random number between 1 and 100. 
 The program should prompt the user to guess the number and provide feedback on whether the guess is too high, too low, or correct.
 
@@ -67,7 +70,7 @@ Feel free to modify the code or add additional features as desired.
 
 
 
-# Exercise 4: Calculate Factorial
+#Exercise4: Calculate Factorial
 Write a JavaScript function called calculateFactorial that takes a positive integer as a parameter and calculates its factorial. The factorial of a number is the product of all positive integers from 1 to that number.
 
 For example, the factorial of 5 (written as 5!) is calculated as follows:
