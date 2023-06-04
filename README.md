@@ -1,25 +1,50 @@
-/* ЗАДАЧА:
+`Exercise: Calculate BMI`
+Write a JavaScript function called `calculateBMI` that takes two parameters: `weight` (in kilograms) and `height` (in meters). The function should calculate the Body Mass Index (BMI) and return the BMI value.
 
-1. - Вам нужно создать калькулятор индекса массы тела (BMI).
+The BMI is calculated using the following formula:
+BMI = weight / (height * height)
 
-2. - Индекс массы тела рассчитывается по формуле: 
-вес в Кг / Рост в квадрате.
+Write another function called `interpretBMI` that takes one parameter: `bmiValue`. This function should interpret the BMI value and return a string message based on the following ranges:
 
-Например, масса человека = 74 кг, рост = 172 см. Следовательно, индекс массы тела в этом случае равен:
-ИМТ = 74кг / 1,722м² ≈ 25,01 кг/м²
+- If BMI is less than 18.5, return "Underweight".
+- If BMI is between 18.5 and 24.9 (inclusive), return "Normal weight".
+- If BMI is between 25 and 29.9 (inclusive), return "Overweight".
+- If BMI is 30 or greater, return "Obese".
 
-3. Сравнить массы тел двух людей (данные ниже), и вывести в консоль сравнения двух результатов в булевом значении (true / false).
+Lastly, write a main function called `runBMIProgram` that prompts the user to enter their weight and height, calls the `calculateBMI` function to calculate the BMI, and then calls the `interpretBMI` function to display the interpretation of the BMI value to the user.
 
-ДАННЫЕ:
+Here's a starting point to help you get started:
 
-    Петр: Вес: 72кг рост: 1.88м
-    Денис: Вес: 82кг рост: 1.73м
+Your task is to complete the code by implementing the necessary logic for each function. Once you've completed the exercise, you can test it by running the `runBMIProgram` function. Feel free to modify the code as needed to suit your needs.
 
-4. У кого индекс BMI больше?
-
-*/
+Happy coding! Let me know if you need further assistance.
 
 
-2 Random
+------------------------------------------
 
-записать код для  рандома  который состоит из alert и promta
+`Exercise: Convert Temperature`
+Write a JavaScript function called `convertTemperature` that takes two parameters: `temperature` and `unit`. The function should convert the temperature from one unit to another and return the converted temperature.
+
+The function should support the following temperature units:
+- Celsius (C)
+- Fahrenheit (F)
+- Kelvin (K)
+
+The conversion formulas are as follows:
+- Celsius to Fahrenheit: (C * 9/5) + 32
+- Celsius to Kelvin: C + 273.15
+- Fahrenheit to Celsius: (F - 32) * 5/9
+- Fahrenheit to Kelvin: ((F - 32) * 5/9) + 273.15
+- Kelvin to Celsius: K - 273.15
+- Kelvin to Fahrenheit: ((K - 273.15) * 9/5) + 32
+
+Write another function called `displayTemperature` that takes two parameters: `temperature` and `unit`. This function should display the converted temperature with the unit in the following format: "Temperature: [temperature] [unit]".
+
+Lastly, write a main function called `runTemperatureProgram` that prompts the user to enter a temperature and its unit, calls the `convertTemperature` function to convert the temperature, and then calls the `displayTemperature` function to display the converted temperature to the user.
+
+Here's a starting point for you:
+
+
+Your task is to complete the code by implementing the necessary logic for each function. Once you've completed the exercise, you can test it by running the `runTemperatureProgram` function. Feel free to modify the code as needed.
+
+Happy coding! Let me know if you need further assistance.
