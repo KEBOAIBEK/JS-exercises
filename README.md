@@ -1,5 +1,5 @@
 # Table of contens
-* [Exercise 1: Calculate BMI](# Exercise 1: Calculate BMI)
+* [Exercise 1: Calculate BMI](#Exercise-1:-Calculate-BMI)
 
 
 
