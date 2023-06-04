@@ -42,16 +42,13 @@ Write another function called `displayTemperature` that takes two parameters: `t
 
 Lastly, write a main function called `runTemperatureProgram` that prompts the user to enter a temperature and its unit, calls the `convertTemperature` function to convert the temperature, and then calls the `displayTemperature` function to display the converted temperature to the user.
 
-Here's a starting point for you:
-
-
 Your task is to complete the code by implementing the necessary logic for each function. Once you've completed the exercise, you can test it by running the `runTemperatureProgram` function. Feel free to modify the code as needed.
 
 
 
 
 
-# Exercise: Guess the Number
+# Exercise 3: Guess the Number
 Write a JavaScript program that generates a random number between 1 and 100. 
 The program should prompt the user to guess the number and provide feedback on whether the guess is too high, too low, or correct.
 
@@ -65,3 +62,13 @@ Feel free to modify the code or add additional features as desired.
 
 
 
+# Exercise 4: Calculate Factorial
+Write a JavaScript function called calculateFactorial that takes a positive integer as a parameter and calculates its factorial. The factorial of a number is the product of all positive integers from 1 to that number.
+
+For example, the factorial of 5 (written as 5!) is calculated as follows:
+
+```
+5! = 5 * 4 * 3 * 2 * 1 = 120
+```
+
+Write a function that uses a loop to calculate the factorial of the given number and returns the result.
