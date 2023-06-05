@@ -5,6 +5,7 @@
 * [Exercise4: Calculate Factorial](#exercise4:-calculate-factorial)
 * [Exercise5: Find Prime Numbers](#Exercise5:-find-prime-numbers)
 * [Exercise6: Remove Duplicates](#Exercise6:-remove-duplicates)
+* [Exercise7: Find Winner](#Exercise7:-find-winner)
 
 
 
@@ -97,3 +98,29 @@ Write a JavaScript function called removeDuplicates that takes an array as a par
 For example, given the array [1, 2, 3, 2, 4, 3, 5], the function should return [1, 2, 3, 4, 5] after removing the duplicate elements.
 
 Write a function that iterates over the array and uses another array to store unique elements. If an element is already present in the unique elements array, it should be skipped. Finally, the function should return the new array with duplicates removed.
+
+
+
+## Exercise7: Find Winner
+
+You need to determine the winner among two teams.
+Let's consider two swimming teams - "crazyKats" and "funnyDucks".
+
+Each team has shown 3 final results in three swimming events. For example, crazyKats showed three results (30, 60, 43).
+
+One team wins only if the average number of points based on the three results is at least twice as high as the opponent's. Otherwise, it's a draw.
+
+TASK:
+
+Create an arrow function that calculates the average value of the team's three results. It can be calculated using the formula:
+"(res1 + res2 + res3) / 3"
+
+Use the created function to get the average result for the two teams.
+
+Create a function with two parameters that will accept the arguments from the average score result of the teams. In this function, create conditional statements using if/else if to determine the winner and print a message with the result to the console.
+
+DATA FOR THE TASK:
+```
+First variant: "crazyKats" - 44, 23, 71, "funnyDucks" - 65, 54, 49
+Second variant: "crazyKats" - 85, 54, 41, "funnyDucks" - 23, 34, 27
+```
