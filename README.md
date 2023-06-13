@@ -6,11 +6,14 @@
 * [Exercise5: Find Prime Numbers](#Exercise5:-find-prime-numbers)
 * [Exercise6: Remove Duplicates](#Exercise6:-remove-duplicates)
 * [Exercise7: Find Winner](#Exercise7:-find-winner)
+* [Exercise8: capitalizeWords](#Exercise8:-capitalizeWords)
+
 
 
 
 
 ## Exercise1: Calculate BMI
+
 Write a JavaScript function called `calculateBMI` that takes two parameters: `weight` (in kilograms) and `height` (in meters). The function should calculate the Body Mass Index (BMI) and return the BMI value.
 
 The BMI is calculated using the following formula:
@@ -124,3 +127,13 @@ DATA FOR THE TASK:
 First variant: "crazyKats" - 44, 23, 71, "funnyDucks" - 65, 54, 49
 Second variant: "crazyKats" - 85, 54, 41, "funnyDucks" - 23, 34, 27
 ```
+
+
+## Exercise8: capitalizeWords
+
+
+Write a JavaScript function called capitalizeWords that takes a string as a parameter and capitalizes the first letter of each word in the string. The function should return the modified string.
+
+For example, given the string "hello world, how are you?", the function should return "Hello World, How Are You?".
+
+Write a function that splits the string into an array of words, capitalizes the first letter of each word using the toUpperCase() method, and joins the words back into a string using the join() method.
